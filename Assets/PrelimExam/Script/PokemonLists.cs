@@ -10,6 +10,10 @@ public class PokemonLists : MonoBehaviour
     void Start()
     {
         pokemons = Resources.LoadAll<Pokemon>(folderPath);
+        
+
     }
+
+    
 
 }

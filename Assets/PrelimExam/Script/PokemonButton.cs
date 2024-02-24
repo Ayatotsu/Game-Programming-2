@@ -1,17 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEditor.U2D;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PokemonButton : MonoBehaviour
 {
-    public Pokemon cPokemon;
-
-
     [Header("Text References")]
-    public GameObject pokemonData;
+    
     public TextMeshProUGUI pokemonName;
     public TextMeshProUGUI pTypes;
     public TextMeshProUGUI pGender;
@@ -24,13 +22,6 @@ public class PokemonButton : MonoBehaviour
     [Header("Image References")]
     public Image image;
     public Image bgImage;
-
-    public void ShowUI()
-    {
-        SetPokemonData(cPokemon);
-        pokemonData.SetActive(true);
-        bgImage.gameObject.SetActive(true);
-    }
 
     public void SetPokemonData(Pokemon cPokemon)
     {
@@ -45,26 +36,7 @@ public class PokemonButton : MonoBehaviour
         pSpeed.text = "Speed:  " + cPokemon.speed.ToString();
         image.sprite = cPokemon.image;
         bgImage.sprite = cPokemon.bgImage;
-        
-        
     }
-    public void ClearUI()
-    {
-        
-        pokemonName = null;
-        pTypes = null;
-        pGender = null;
-        pHp = null;
-        pAtk = null;
-        pSpAtk = null;
-        pDef = null;
-        pSpDef = null;
-        pSpeed = null;
-    }
-
-    public void OnDisable()
-    {
-        ClearUI();
-    }
-
+    
+    
 }

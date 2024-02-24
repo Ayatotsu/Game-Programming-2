@@ -20,8 +20,8 @@ MonoBehaviour:
   def: 50
   spdef: 80
   speed: 70
-  gender: 0
+  gender: 1
   types: 0
   types2: 6
   image: {fileID: 21300000, guid: eff7133da89e6d642bc27d8d93242ddc, type: 3}
-  bgImage: {fileID: 21300000, guid: f3a46ac424e582140827fce1a5e48c00, type: 3}
+  bgImage: {fileID: 21300000, guid: 5d655ecda373851428605fcca462abd2, type: 3}

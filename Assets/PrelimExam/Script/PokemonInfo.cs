@@ -9,9 +9,9 @@ using UnityEngine.Analytics;
 public class PokemonInfo : MonoBehaviour
 {
     public Pokemon pokemon;
-
+    
     [Header("UI Headers")]
-
+    
     public TextMeshProUGUI pokemonName;
     public TextMeshProUGUI pokemonTypes;
     public TextMeshProUGUI pokemonGender;
@@ -21,6 +21,7 @@ public class PokemonInfo : MonoBehaviour
     public TextMeshProUGUI pokemonDef;
     public TextMeshProUGUI pokemonSpDef;
     public TextMeshProUGUI pokemonSpeed;
+
     [Header("Image References")]
     public Image image;
     public Image bgImage;
@@ -30,6 +31,7 @@ public class PokemonInfo : MonoBehaviour
     }
     public void DisplayPokemon(Pokemon pokemon)
     {
+        
         pokemonName.text = "Name:  " + pokemon.name;
         pokemonTypes.text = "Types:  " + pokemon.types.ToString() + ", " + pokemon.types2.ToString();
         pokemonGender.text = "Gender:  " + pokemon.gender.ToString();
@@ -63,5 +65,6 @@ public class PokemonInfo : MonoBehaviour
     public void OnDisable()
     {
         ClearUI();
+
     }
 }

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5184903155303959010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5184903154377207856}
+  - component: {fileID: 5184903154377207863}
+  m_Layer: 0
+  m_Name: PokemonLists
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5184903154377207856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184903155303959010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5184903154377207863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184903155303959010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4b72c560e61ce4eb58d5fbbf067a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons:
+  - {fileID: 11400000, guid: 6c2ddb4bc276a7741b339715468f07b8, type: 2}
+  - {fileID: 11400000, guid: 06bbce5040c42fc47ab9324c3b3d9e08, type: 2}
+  - {fileID: 11400000, guid: 2ecc6e20afb79ba47978c45583ba59ea, type: 2}
+  - {fileID: 11400000, guid: 1907579d43037a449a9a173be4058fe8, type: 2}
+  - {fileID: 11400000, guid: c2db9d9e0aa12cf4d9f8ebce696d0263, type: 2}
+  - {fileID: 11400000, guid: 19cc19063ba5c214a88a37ca3dcb0018, type: 2}
+  - {fileID: 11400000, guid: 9750f04354277df418363b4505afb524, type: 2}
+  - {fileID: 11400000, guid: 19d01eb25b48f354fbbd8b5b50c48168, type: 2}
+  - {fileID: 11400000, guid: 73cbe272f512715429fdb5a7bf54ad7d, type: 2}
+  - {fileID: 11400000, guid: c82aeaaa3b921044ba0a8803f7baf8a1, type: 2}
